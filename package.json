@@ -1,0 +1,15 @@
+{
+  "name": "retext-intepreter",
+  "version": "1.0.0",
+  "description": "Output offending and suggestion",
+  "main": "index.js",
+  "author": "Sylvan Swierkosz & Jason Emberley",
+  "license": "MIT",
+  "dependencies": {
+    "dictionary-en-gb": "^1.2.0",
+    "micro": "^6.2.0",
+    "micro-cors": "^0.0.1",
+    "retext": "^4.0.0",
+    "retext-equality": "^2.5.0"
+  }
+}
