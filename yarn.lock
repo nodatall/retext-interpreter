@@ -59,6 +59,10 @@ async-to-gen@1.3.0:
     babylon "^6.14.0"
     magic-string "^0.19.0"
 
+automated-readability@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/automated-readability/-/automated-readability-1.0.0.tgz#6460ac2f7f0b5aeef0e8ca7b385d3e8c82ac6c7e"
+
 babylon@^6.14.0:
   version "6.15.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.15.0.tgz#ba65cfa1a80e1759b0e89fb562e27dccae70348e"
@@ -78,6 +82,22 @@ braces@^1.8.2:
 bytes@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-2.4.0.tgz#7d97196f9d5baf7f6935e25985549edd2a6c2339"
+
+coleman-liau@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/coleman-liau/-/coleman-liau-1.0.0.tgz#de1f39901e164f49eff2a6ec88f3a9dbbb6686c1"
+
+cuss@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/cuss/-/cuss-1.3.0.tgz#3e505cf7bc79b3e4c9d17ad6ab714f5ef5026b41"
+
+dale-chall-formula@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/dale-chall-formula/-/dale-chall-formula-1.0.0.tgz#a00df0a1c161ce4bd9a30422e41e953103a4ecc9"
+
+dale-chall@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/dale-chall/-/dale-chall-1.0.0.tgz#7f6e7ca357bdb3552c1ddb3c750bd9300cb895b7"
 
 dictionary-en-gb@^1.2.0:
   version "1.2.0"
@@ -127,6 +147,10 @@ filter-array@^0.2.0:
     kind-of "^1.1.0"
     micromatch "^2.1.0"
 
+flesch@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/flesch/-/flesch-1.0.0.tgz#96bfaee5e208264ff63c4447c4f124b5d4361cd5"
+
 for-in@^0.1.5:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.6.tgz#c9f96e89bfad18a545af5ec3ed352a1d9e5b4dc8"
@@ -153,6 +177,10 @@ glob-parent@^2.0.0:
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-2.0.0.tgz#81383d72db054fcccf5336daa902f182f6edbb28"
   dependencies:
     is-glob "^2.0.0"
+
+gunning-fog@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gunning-fog/-/gunning-fog-1.0.1.tgz#4933fb345a683cbc4190fa5c6a52dccc05164187"
 
 has@^1.0.1:
   version "1.0.1"
@@ -242,6 +270,14 @@ kind-of@^3.0.2, kind-of@^3.0.3:
   dependencies:
     is-buffer "^1.0.2"
 
+lodash.difference@^4.4.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
+
+lodash.includes@^4.2.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/lodash.includes/-/lodash.includes-4.3.0.tgz#60bb98a87cb923c68ca1e51325483314849f553f"
+
 magic-string@^0.19.0:
   version "0.19.0"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.19.0.tgz#198948217254e3e0b93080e01146b7c73b2a06b2"
@@ -259,6 +295,10 @@ make-iterator@^0.2.0:
   resolved "https://registry.yarnpkg.com/make-iterator/-/make-iterator-0.2.1.tgz#a19c660132b54ae6d64f881ec14056c746dbe972"
   dependencies:
     kind-of "^3.0.3"
+
+match-casing@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/match-casing/-/match-casing-1.0.0.tgz#b9d8f836ed2d6c5fa3c78bff4458efd894b371a4"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -301,7 +341,7 @@ minimist@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
-nlcst-is-literal@^1.1.0:
+nlcst-is-literal@^1.0.0, nlcst-is-literal@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/nlcst-is-literal/-/nlcst-is-literal-1.1.0.tgz#d7a442b333cf744a00a946c637edcf08a2d7dad5"
   dependencies:
@@ -313,7 +353,7 @@ nlcst-normalize@^2.0.0, nlcst-normalize@^2.1.0:
   dependencies:
     nlcst-to-string "^2.0.0"
 
-nlcst-search@^1.1.1:
+nlcst-search@^1.0.0, nlcst-search@^1.1.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/nlcst-search/-/nlcst-search-1.4.0.tgz#c6b0ea9044081d94fba9c4d8a8e7f74daa868559"
   dependencies:
@@ -321,6 +361,10 @@ nlcst-search@^1.1.1:
     nlcst-is-literal "^1.1.0"
     nlcst-normalize "^2.1.0"
     unist-util-visit "^1.0.0"
+
+nlcst-to-string@^1.0.0, nlcst-to-string@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nlcst-to-string/-/nlcst-to-string-1.1.0.tgz#12b2e59475ec29f7d61a146a79b3596dafcb344d"
 
 nlcst-to-string@^2.0.0:
   version "2.0.0"
@@ -330,7 +374,24 @@ normalize-path@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.0.1.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
 
-object-keys@^1.0.7:
+normalize-strings@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/normalize-strings/-/normalize-strings-1.1.0.tgz#b24a75ed48176394404f74649b5cb8040e899a75"
+
+nspell@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/nspell/-/nspell-1.0.2.tgz#834c1e46c39ca99b9d7f6d4c485ef76a8a711b8c"
+  dependencies:
+    has "^1.0.1"
+    is-buffer "^1.1.4"
+    trim "0.0.1"
+    x-is-string "^0.1.0"
+
+number-to-words@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/number-to-words/-/number-to-words-1.2.3.tgz#4b713ab0c24015911187a0a03b59103569d7f49b"
+
+object-keys@^1.0.7, object-keys@^1.0.9:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
 
@@ -364,11 +425,15 @@ parse-latin@^3.1.0:
     unist-util-modify-children "^1.0.0"
     unist-util-visit-children "^1.0.0"
 
+pluralize@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-3.1.0.tgz#84213d0a12356069daa84060c559242633161368"
+
 preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-quotation@^1.0.1:
+quotation@^1.0.0, quotation@^1.0.1, quotation@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/quotation/-/quotation-1.1.0.tgz#3f9c9b2e7780856f27c5015bec628d690e82c70d"
 
@@ -406,9 +471,29 @@ replace-ext@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
 
-retext-equality@^2.5.0:
+retext-contractions@nodatall/retext-contractions:
+  version "1.0.1"
+  resolved "https://codeload.github.com/nodatall/retext-contractions/tar.gz/e37d8608080fd79267d97fed3466daaaded3c690"
+  dependencies:
+    has "^1.0.1"
+    nlcst-is-literal "^1.0.0"
+    nlcst-to-string "^2.0.0"
+    unist-util-visit "^1.1.0"
+
+retext-diacritics@nodatall/retext-diacritics:
+  version "1.1.0"
+  resolved "https://codeload.github.com/nodatall/retext-diacritics/tar.gz/8f15331bb835f8f9ff5d88bd5e7696527e487f2f"
+  dependencies:
+    match-casing "^1.0.0"
+    nlcst-search "^1.0.0"
+    nlcst-to-string "^2.0.0"
+    object-keys "^1.0.9"
+    quotation "^1.0.1"
+    unist-util-position "^3.0.0"
+
+retext-equality@nodatall/retext-equality:
   version "2.5.0"
-  resolved "https://registry.yarnpkg.com/retext-equality/-/retext-equality-2.5.0.tgz#c066968c2a1ca14b61a466fd74956a246c6b0382"
+  resolved "https://codeload.github.com/nodatall/retext-equality/tar.gz/a2376f87b7dd31b4499605f3b041b6978f5d4f7a"
   dependencies:
     array-differ "^1.0.0"
     array-intersection "^0.1.2"
@@ -419,6 +504,15 @@ retext-equality@^2.5.0:
     quotation "^1.0.1"
     unist-util-visit "^1.0.0"
 
+retext-indefinite-article@nodatall/retext-indefinite-article:
+  version "1.0.3"
+  resolved "https://codeload.github.com/nodatall/retext-indefinite-article/tar.gz/68b3771ecd9c47e6f3155117f7e5decb9a55c4ab"
+  dependencies:
+    nlcst-to-string "^2.0.0"
+    number-to-words "^1.2.3"
+    unist-util-is "^2.0.0"
+    unist-util-visit "^1.1.0"
+
 retext-latin@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/retext-latin/-/retext-latin-1.0.0.tgz#57f41257b4d857b6c6df631ca5788d10080d7051"
@@ -426,11 +520,114 @@ retext-latin@^1.0.0:
     parse-latin "^3.1.0"
     unherit "^1.0.4"
 
+retext-overuse@nodatall/retext-overuse:
+  version "1.0.2"
+  resolved "https://codeload.github.com/nodatall/retext-overuse/tar.gz/c5e925a02e0bf67f9710095b955f8659340b716f"
+  dependencies:
+    array-differ "^1.0.0"
+    nlcst-search "^1.1.1"
+    nlcst-to-string "^1.0.0"
+    object-keys "^1.0.9"
+    quotation "^1.0.1"
+    stopwords "0.0.5"
+    thesaurus "0.0.0"
+
+retext-passive@nodatall/retext-passive:
+  version "1.1.0"
+  resolved "https://codeload.github.com/nodatall/retext-passive/tar.gz/c21fc7d2725f9d36ad42f70a37c87e0003122bee"
+  dependencies:
+    nlcst-search "^1.0.0"
+    nlcst-to-string "^2.0.0"
+    unist-util-find-before "^2.0.0"
+    unist-util-position "^3.0.0"
+
+retext-profanities@nodatall/retext-profanities:
+  version "3.1.0"
+  resolved "https://codeload.github.com/nodatall/retext-profanities/tar.gz/588a645c6c4e43f5f6aaf90ed20e18ce6648855d"
+  dependencies:
+    array-differ "^1.0.0"
+    array-intersection "^0.1.2"
+    cuss "^1.3.0"
+    nlcst-search "^1.0.0"
+    nlcst-to-string "^2.0.0"
+    object-keys "^1.0.9"
+    quotation "^1.0.0"
+
+retext-readability@nodatall/retext-readability:
+  version "3.2.0"
+  resolved "https://codeload.github.com/nodatall/retext-readability/tar.gz/48dd4fb9df208163b7b9c90415a3df8edbf5f419"
+  dependencies:
+    automated-readability "^1.0.0"
+    coleman-liau "^1.0.0"
+    dale-chall "^1.0.0"
+    dale-chall-formula "^1.0.0"
+    flesch "^1.0.0"
+    gunning-fog "^1.0.0"
+    has "^1.0.1"
+    nlcst-to-string "^2.0.0"
+    smog-formula "^1.0.0"
+    spache "^1.1.0"
+    spache-formula "^1.0.0"
+    syllable "^2.0.0"
+    unist-util-visit "^1.0.0"
+
+retext-redundant-acronyms@nodatall/retext-redundant-acronyms:
+  version "1.0.0"
+  resolved "https://codeload.github.com/nodatall/retext-redundant-acronyms/tar.gz/320765b61f391ac8e3f4ac9a86231f4d2b3b8965"
+  dependencies:
+    match-casing "^1.0.0"
+    nlcst-search "^1.0.0"
+    nlcst-to-string "^2.0.0"
+    object-keys "^1.0.9"
+    quotation "^1.0.1"
+    unist-util-position "^3.0.0"
+
+retext-repeated-words@nodatall/retext-repeated-words:
+  version "1.1.0"
+  resolved "https://codeload.github.com/nodatall/retext-repeated-words/tar.gz/b984bf48ffcae41064121e31a6845dac00ad7c9e"
+  dependencies:
+    nlcst-to-string "^2.0.0"
+    unist-util-is "^2.0.0"
+    unist-util-visit "^1.1.0"
+
+retext-simplify@nodatall/retext-simplify:
+  version "3.0.0"
+  resolved "https://codeload.github.com/nodatall/retext-simplify/tar.gz/f46681def9b90d1d4d385e60bc7aa925f725eebf"
+  dependencies:
+    lodash.difference "^4.4.0"
+    nlcst-search "^1.0.0"
+    nlcst-to-string "^2.0.0"
+    object-keys "^1.0.9"
+    quotation "^1.0.0"
+    unist-util-position "^3.0.0"
+
+retext-spell@nodatall/retext-spell:
+  version "1.0.0"
+  resolved "https://codeload.github.com/nodatall/retext-spell/tar.gz/b0e28f9184e84476d43678a39bdc5245c1fd3624"
+  dependencies:
+    has "^1.0.1"
+    lodash.includes "^4.2.0"
+    nlcst-is-literal "^1.0.0"
+    nlcst-to-string "^2.0.0"
+    nspell "^1.0.0"
+    quotation "^1.1.0"
+    unist-util-visit "^1.0.0"
+
 retext-stringify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/retext-stringify/-/retext-stringify-1.0.0.tgz#0032e4be3254ea56b19242ef406515479a3346a9"
   dependencies:
     nlcst-to-string "^2.0.0"
+
+retext-usage@nodatall/retext-usage:
+  version "0.2.0"
+  resolved "https://codeload.github.com/nodatall/retext-usage/tar.gz/554ae8eae7ad1cc9f9dcd7adf7e6894997de64f7"
+  dependencies:
+    array-differ "^1.0.0"
+    nlcst-search "^1.0.0"
+    nlcst-to-string "^1.1.0"
+    object-keys "^1.0.9"
+    quotation "^1.0.0"
 
 retext@^4.0.0:
   version "4.0.0"
@@ -439,6 +636,39 @@ retext@^4.0.0:
     retext-latin "^1.0.0"
     retext-stringify "^1.0.0"
     unified "^5.0.0"
+
+smog-formula@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/smog-formula/-/smog-formula-1.0.0.tgz#27415745afe07be12230d87f55a0d83d57898bda"
+
+spache-formula@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/spache-formula/-/spache-formula-1.0.0.tgz#16c859b7592e3851c9ce8d52c4cd6c4a50951381"
+
+spache@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/spache/-/spache-1.1.0.tgz#8c68ba807630f0199429c2035c82ed96f5438cd5"
+
+stopwords@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/stopwords/-/stopwords-0.0.5.tgz#59ad9dceb96ea0fa27459e1cefe0ee0e6ddfd514"
+
+syllable@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/syllable/-/syllable-2.0.0.tgz#d4118d4fe8df943a045bad8b411748453c3613f1"
+  dependencies:
+    has "^1.0.1"
+    normalize-strings "^1.1.0"
+    pluralize "^3.0.0"
+    trim "0.0.1"
+
+thesaurus@0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/thesaurus/-/thesaurus-0.0.0.tgz#0a3b3356fc1d818c6c16c23f56ba7f3c5a25c905"
+
+trim@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
 
 trough@^1.0.0:
   version "1.0.0"
@@ -464,11 +694,25 @@ unified@^5.0.0:
     vfile "^2.0.0"
     x-is-string "^0.1.0"
 
+unist-util-find-before@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-find-before/-/unist-util-find-before-2.0.0.tgz#c0a33cdef4dc68e528ad470516704ef24187d52f"
+  dependencies:
+    unist-util-is "^2.0.0"
+
+unist-util-is@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.0.0.tgz#e536472c4f78739e164d0859fc3201b97cf46e7c"
+
 unist-util-modify-children@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/unist-util-modify-children/-/unist-util-modify-children-1.1.0.tgz#559203ae85d7a76283277be1abfbaf595a177ead"
   dependencies:
     array-iterate "^1.0.0"
+
+unist-util-position@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-3.0.0.tgz#e6e1e03eeeb81c5e1afe553e8d4adfbd7c0d8f82"
 
 unist-util-stringify-position@^1.0.0:
   version "1.1.0"
@@ -480,7 +724,7 @@ unist-util-visit-children@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/unist-util-visit-children/-/unist-util-visit-children-1.1.0.tgz#bf1cd7be3c0a4efd03d84a22dd0ee7db005a3f6b"
 
-unist-util-visit@^1.0.0:
+unist-util-visit@^1.0.0, unist-util-visit@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.1.1.tgz#e917a3b137658b335cb4420c7da2e74d928e4e94"
 

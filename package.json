@@ -10,6 +10,18 @@
     "micro": "^6.2.0",
     "micro-cors": "^0.0.1",
     "retext": "^4.0.0",
-    "retext-equality": "^2.5.0"
+    "retext-equality": "nodatall/retext-equality",
+    "retext-passive": "nodatall/retext-passive",
+    "retext-contractions": "nodatall/retext-contractions",
+    "retext-diacritics": "nodatall/retext-diacritics",
+    "retext-indefinite-article": "nodatall/retext-indefinite-article",
+    "retext-overuse": "nodatall/retext-overuse",
+    "retext-profanities": "nodatall/retext-profanities",
+    "retext-readability": "nodatall/retext-readability",
+    "retext-redundant-acronyms": "nodatall/retext-redundant-acronyms",
+    "retext-repeated-words": "nodatall/retext-repeated-words",
+    "retext-simplify": "nodatall/retext-simplify",
+    "retext-spell": "nodatall/retext-spell",
+    "retext-usage": "nodatall/retext-usage"
   }
 }
